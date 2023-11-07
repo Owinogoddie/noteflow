@@ -12,19 +12,19 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Jotion',
+  title: 'Noteflow',
   description: 'The connected workspace where better, faster work happens.',
   icons: {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/logo.svg",
-        href: "/logo.svg",
+        url: "/logo-black.png",
+        href: "/logo-black.png",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/logo-dark.svg",
-        href: "/logo-dark.svg",
+        url: "/logo-white.png",
+        href: "/logo-white.png",
       }
     ]
   }
