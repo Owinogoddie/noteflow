@@ -12,18 +12,18 @@ export const Logo = () => {
   return (
     <div className="hidden md:flex items-center gap-x-2">
       <Image
-        src="/logo-white.png"
+        src="/logo-black.png"
         height="40"
         width="40"
         alt="Logo"
         className="dark:hidden"
       />
       <Image
-        src="/logo-dark.svg"
+        src="/logo-white.png"
         height="40"
         width="40"
         alt="Logo"
-        className="logo-black.png"
+        className="hidden dark:block"
       />
       <p className={cn("font-semibold", font.className)}>
         Jotion
